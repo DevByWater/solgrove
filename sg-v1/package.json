@@ -1,0 +1,9 @@
+{
+  "name": "sg-v1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
