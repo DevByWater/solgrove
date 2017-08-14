@@ -4,10 +4,12 @@ import Menu from '../Shared/Menu'
 
 class SketchMain extends Component{
     render(){
-        <div>
-            <Menu />
-            <h1>SketchMain Component</h1>
-        </div>
+        return(
+             <div>
+                <Menu />
+                <h1>SketchMain Component</h1>
+            </div>
+        )
     }
 }
 
