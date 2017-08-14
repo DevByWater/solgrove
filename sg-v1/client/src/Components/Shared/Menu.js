@@ -10,7 +10,7 @@ class Menu extends Component{
                         <a className="nav-link" href="#">Solar System</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Simulation 2</a>
+                        <a className="nav-link" href="#">Metosis</a>
                     </li>
                 </ul>
             </div>
