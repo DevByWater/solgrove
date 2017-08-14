@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Menu from '../Shared/Menu'
+import Sketch from './Sketch'
 
 class SketchMain extends Component{
     render(){
@@ -8,6 +9,7 @@ class SketchMain extends Component{
              <div>
                 <Menu />
                 <h1>SketchMain Component</h1>
+                <Sketch/>
             </div>
         )
     }

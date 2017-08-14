@@ -14,7 +14,7 @@ class Landing extends Component{
                         <div className="col-xs-10 col-sm-6 col-md-4 header-box">
                             <h1 className="text-center display-3">Sol Grove</h1>
                             <p className="text-center lead">Natural simulations for the curious</p>
-                            <p className="text-center">Built with Javascript & Powered by P5js</p>
+                            <p className="text-center">Built with Javascript | Powered by P5js | Inspired by the Nature of Code</p>
                             <p className="text-center lead">
                                 <Link to="/sim" className="btn btn-outline-primary btn-lg">Begin</Link>
                             </p>
