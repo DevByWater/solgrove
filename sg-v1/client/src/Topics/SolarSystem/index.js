@@ -1,8 +1,8 @@
 export default function solar_system_sketch(p){
     let sun
     p.setup = function(){
-        p.createCanvas(p.windowWidth, p.windowHeight)
-        sun = new Planet(50, 20)
+        p.createCanvas(p.windowWidth, p.windowHeight - 50)
+        sun = new CellestialBody('star', 'Sol', p.windowWidth/2, p.windowHeight/2, 50, 20)
     }
     p.draw = function(){
         p.background(0)
@@ -32,7 +32,7 @@ export default function solar_system_sketch(p){
         }
 
         _getObjectType(str){
-            switch(str.lowercase().trim()){
+            switch(str.toLowerCase().trim()){
                 case 'planet':
                     return 'planet'
                 case 'moon':
@@ -45,9 +45,13 @@ export default function solar_system_sketch(p){
         }
         _applyForce(force){
             let f = p.Vector().div(force, this.mass)
-            acceleration.add(f)
+            this.acceleration.add(f)
         }
-        _
+        _updateObject(){
+            this.velocity.add(this.acceleration)
+            this.position.add(this.velocity)
+            this.acceleration.mult(0)
+        }
     }
 }
 

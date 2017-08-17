@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
+import { Route } from 'react-router-dom'
 
+import SketchWindow from './SketchWindow'
 import Menu from '../Shared/Menu'
-import Sketch from './Sketch'
+
 
 class SketchMain extends Component{
     render(){
         return(
              <div>
                 <Menu />
-                <h1>SketchMain Component</h1>
-                <Sketch/>
+                <Route path="/sim/:topic" component={SketchWindow} />
             </div>
         )
     }

@@ -16,7 +16,7 @@ class Landing extends Component{
                             <p className="text-center lead">Natural simulations for the curious</p>
                             <p className="text-center">Built with Javascript | Powered by P5js | Inspired by the Nature of Code</p>
                             <p className="text-center lead">
-                                <Link to="/sim" className="btn btn-outline-primary btn-lg">Begin</Link>
+                                <Link to="/sim/vectors" className="btn btn-outline-primary btn-lg">Begin</Link>
                             </p>
                         </div>
                     

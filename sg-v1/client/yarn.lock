@@ -4484,7 +4484,7 @@ p-map@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/p-map/-/p-map-1.1.1.tgz#05f5e4ae97a068371bc2a5cc86bfbdbc19c4ae7a"
 
-p5@^0.5.5:
+p5@^0.5.12, p5@^0.5.5:
   version "0.5.12"
   resolved "https://registry.yarnpkg.com/p5/-/p5-0.5.12.tgz#47abe9468557e04f033cb8935fd5b4d49541960c"
   dependencies:
